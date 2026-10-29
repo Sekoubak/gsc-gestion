@@ -1,0 +1,39 @@
+{
+  "name": "gsc-gestion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gestion interne de Guinea Services Consulting : projets, factures, bons de commande, attestations, relances et bilan.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "build:artifact": "node artifact/build.mjs"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "jspdf": "3.0.4",
+    "jspdf-autotable": "5.0.9",
+    "lucide-react": "0.468.0",
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zustand": "5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "autoprefixer": "10.4.20",
+    "esbuild": "0.25.10",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.2",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.28"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
