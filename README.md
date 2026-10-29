@@ -17,7 +17,7 @@ npm run lint       # ESLint
 npm run build:artifact  # démo interactive en un seul fichier HTML (artifact/dist)
 ```
 
-Node.js 20 ou plus récent est requis. Les polices (Bricolage Grotesque, Figtree) sont chargées par `next/font` depuis Google Fonts au moment du build : Vercel y a accès sans configuration.
+Node.js 22 est requis (fixé dans `package.json` pour Vercel). Les polices (Bricolage Grotesque, Figtree) sont chargées par `next/font` depuis Google Fonts au moment du build : Vercel y a accès sans configuration.
 
 Au premier lancement, des **données d'exemple** (marquées « Exemple ») sont chargées. On les supprime en un clic : *Paramètres › Données › Supprimer les exemples*.
 
